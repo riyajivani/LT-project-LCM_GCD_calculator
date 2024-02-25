@@ -1,0 +1,4 @@
+lex project.l
+yacc -d project.y
+gcc lex.yy.c y.tab.c -o calculator
+./calculator
